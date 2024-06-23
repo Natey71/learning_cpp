@@ -13,7 +13,7 @@ void function_readFile(char delim) {
     cout << "This is the funciton that handles tabl files \n\n";
 
     
-    ifstream myFile("C:/Users/NM4127/Downloads/file_one_test_list.txt");
+    ifstream myFile("path to text file");
     std::string line;
     
     if (myFile.is_open()) {
